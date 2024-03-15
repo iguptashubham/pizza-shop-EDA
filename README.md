@@ -11,6 +11,7 @@ mean_value = df['hour'].value_counts().values.mean()
 plt.axhline(y=mean_value, color='grey', linestyle='--', label='Mean')
 plt.text(14,3500,'Average customers', color='black', ha='right', fontweight = 'book')
 plt.show()</code>.</p>
+
 ![download (4)](https://github.com/iguptashubham/pizza-shop-EDA/assets/140319219/345b37a4-75fe-46a8-b43b-eefeeb72c207)
 
 ## Wordcloud
